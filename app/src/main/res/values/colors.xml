@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color">#71ca0c</color>
+    <color name="theme_color2">#77c533</color>
+    <color name="theme_color3">#2a9f03</color>
+    <color name="title_color">#CCCCCC</color>
+    <color name="text_color">#666666</color>
+    <color name="link_color">#333333</color>
+    <color name="false_color">#FF0000</color>
+    <color name="true_color">#71ca0c</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

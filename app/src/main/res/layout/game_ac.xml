@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game_ac"
+    android:background="@color/white">
+
+    <include layout="@layout/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:id="@+id/try_count_label"
+        android:textColor="@color/text_color"/>
+
+
+
+
+
+
+
+
+    <!--Main Content Start-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_margin="14dp"
+                    android:textColor="@color/text_color"
+                    android:id="@+id/btn_1"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"
+                    android:elevation="10dp"
+                    android:onClick="OnClick_Random_Buttons"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_margin="14dp"
+                    android:textColor="@color/text_color"
+                    android:id="@+id/btn_2"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"
+                    android:elevation="10dp"
+                    android:onClick="OnClick_Random_Buttons"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_margin="14dp"
+                    android:textColor="@color/text_color"
+                    android:id="@+id/btn_3"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"
+                    android:elevation="10dp"
+                    android:onClick="OnClick_Random_Buttons"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_margin="14dp"
+                    android:textColor="@color/text_color"
+                    android:id="@+id/btn_4"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"
+                    android:elevation="10dp"
+                    android:onClick="OnClick_Random_Buttons"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_margin="14dp"
+                    android:textColor="@color/text_color"
+                    android:id="@+id/btn_5"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"
+                    android:elevation="10dp"
+                    android:onClick="OnClick_Random_Buttons"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_margin="14dp"
+                    android:textColor="@color/text_color"
+                    android:id="@+id/btn_6"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"
+                    android:elevation="10dp"
+                    android:onClick="OnClick_Random_Buttons"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_margin="14dp"
+                    android:textColor="@color/text_color"
+                    android:id="@+id/btn_7"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"
+                    android:elevation="10dp"
+                    android:onClick="OnClick_Random_Buttons"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_margin="14dp"
+                    android:textColor="@color/text_color"
+                    android:id="@+id/btn_8"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"
+                    android:elevation="10dp"
+                    android:onClick="OnClick_Random_Buttons"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_margin="14dp"
+                    android:textColor="@color/text_color"
+                    android:id="@+id/btn_9"
+                    android:layout_centerInParent="true"
+                    android:elevation="10dp"
+                    android:onClick="OnClick_Random_Buttons"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--Main Content End-->
+
+
+
+
+</RelativeLayout>

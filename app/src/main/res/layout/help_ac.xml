@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".help_ac"
+    android:background="@color/white">
+
+    <include layout="@layout/main_background"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:padding="14dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_text"
+            android:textColor="@color/text_color"
+            android:textSize="16dp"
+            android:id="@+id/helo_text1"
+            android:justificationMode="inter_word"
+            android:lineHeight="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_text2"
+            android:textColor="@color/text_color"
+            android:textSize="16dp"
+            android:layout_below="@id/helo_text1"
+            android:id="@+id/helo_text2"
+            android:layout_marginTop="14dp"
+            android:justificationMode="inter_word"
+            android:lineHeight="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_text_over"
+            android:textColor="@color/text_color"
+            android:textSize="16dp"
+            android:layout_below="@id/helo_text2"
+            android:id="@+id/helo_text3"
+            android:layout_marginTop="14dp"
+            android:justificationMode="inter_word"
+            android:lineHeight="35dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="25dp"
+        android:text="@string/back"
+        android:textColor="@color/link_color"
+        android:onClick="OnBack_Help"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".you_win_ac"
+    android:background="@color/white">
+
+    <include layout="@layout/main_background"/>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_done_24"
+            android:id="@+id/done_logo"
+            android:layout_centerHorizontal="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/done_logo"
+            android:textAlignment="center"
+            android:text="@string/you_win_message"
+            android:textColor="@color/text_color"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/you_win_message"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/you_win_message"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/false_color"
+                android:layout_margin="14dp"
+                android:textColor="@color/white"
+                android:text="@string/menu"
+                android:onClick="OnClick_Menu"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/true_color"
+                android:layout_margin="14dp"
+                android:textColor="@color/white"
+                android:text="@string/agin"
+                android:onClick="OnClick_Agin"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

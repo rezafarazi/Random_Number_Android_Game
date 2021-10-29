@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ایکس نام</string>
+    <string name="version">1.0</string>
+    <string name="splash_logo_size">150dp</string>
+
+    <string name="start">شروع بازی</string>
+    <string name="help">راهنما</string>
+    <string name="exit">خروج</string>
+
+    <string name="try_count">تعداد دفعات شانس خود را وارد کنید</string>
+
+    <string name="back">برگشت ></string>
+
+    <string name="help_text">با سلام برای انجام بازی ایکس نام فقط کافیه وارد منو بشید و دکمه شروع رو بزنید تا بازی شروع بشه از بین عدد های به نمایش گذاشته شده 2 انتخاب خواهید داشت که عدد صحیح را حدث بزنید بازی هر محله سخت تر میشود و شما میتوانید با استفاده از شانس و بخت خود عدد ها را حدث بزنید </string>
+    <string name="help_text2">این بازی رو هم میتونید به صورت 2 نفره بازی کنید کافیه یکی تون اول شانس خودش رو امتخاب کنه بعد نفر بعدی هر کس درست جواب داد برنده میشه</string>
+    <string name="help_text_over">باتشکر</string>
+
+    <string name="you_win_message">تبریک شما برنده شدید</string>
+    <string name="you_lose_message">متاسفانه شما بازنده شدید</string>
+
+    <string name="agin">تکرار</string>
+    <string name="menu">منو</string>
+
+    <string name="settings">تنظیمات</string>
+
+    <string name="done">تایید</string>
+
+</resources>
